@@ -1,6 +1,6 @@
 # Orvid films
 
-Film repository for [Orvid](https://github.com/mankidev/orvid). It holds sources for full-length films with posters and subtitles.
+Film repository for [Orvid](https://github.com/mankidev/orvid). It holds sources for full-length films with posters and subtitles: HDFilmCehennemi (Turkish) and LookMovie (English, subtitles in many languages).
 
 To add it, open Filters → Repositories → Add repository in Orvid and paste:
 
