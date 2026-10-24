@@ -1,6 +1,6 @@
 # Orvid films
 
-Film repository for [Orvid](https://github.com/mankidev/orvid). It holds sources for full-length films with posters and subtitles: HDFilmCehennemi (Turkish) and LookMovie (English, subtitles in many languages).
+Film repository for [Orvid](https://github.com/mankidev/orvid). It holds sources for full-length films with posters and subtitles: HDFilmCehennemi (Turkish), LookMovie and MovieBox (English, subtitles in many languages). MovieBox blocks most Tor exits in Europe, so it answers best with Tor turned off.
 
 To add it, open Filters → Repositories → Add repository in Orvid and paste:
 
