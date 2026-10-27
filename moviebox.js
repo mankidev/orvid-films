@@ -1,5 +1,6 @@
 var API = "https://h5-api.aoneroom.com/wefeed-h5api-bff";
 var WEB = "https://movieboxhd.net";
+var EXPLICIT = /\b(xxx|porn\w*|erotic\w*|fuck\w*|cunt|nude|nudes)\b/i;
 
 function token() {
   var known = cache.get("token");
@@ -28,6 +29,7 @@ function search(query, next) {
   var items = [];
   (root.data.items || []).forEach(function (it) {
     if (it.subjectType !== 1 || !it.hasResource || it.isPornographic) return;
+    if (/\b(adult|erotic|hot)\b/i.test(it.genre || "") || EXPLICIT.test(it.title || "")) return;
     var year = (it.releaseDate || "").substring(0, 4);
     var wide = it.stills && it.stills.url ? it.stills.url : it.trailer && it.trailer.cover ? it.trailer.cover.url : null;
     items.push({
