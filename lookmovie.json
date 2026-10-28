@@ -1,9 +1,0 @@
-{
- "id": "lookmovie",
- "name": "LookMovie",
- "version": 1,
- "weight": 0.6,
- "match": "lookmovie2\\.to/movies/view/[a-z0-9-]+",
- "icon": "lookmovie.png",
- "script": "lookmovie.js"
-}
